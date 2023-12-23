@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Junction's Bar Contact Page</title>
+        <meta name="viewport" content="wideth=device-width, initial-scale=1.0" >
+        <link href="stylecss.css" rel="stylesheet">
+    </head>
+    <body>
+        <header class="header">
+            <nav id="homecontact"> 
+                <ul id="navguidelist">
+                    <li id="navgl1" class="navgl"><a class="navguidelist1" href="Homepage.html">Home</a></li>
+                    <li id="navgl2" class="navgl"><a class="navguidelist1" href="Contactpage.html">Contact&Survey</a></li>
+                </ul>
+            </nav>  
+            <img class="headerpic" src="img/bar.png" alt="baricon">
+            <h1 id="junctionbar"><span id="J">J</span>unction's <span id="bar">Bar</span></h1>
+        </header>
+            <h4 id="wanna">I really want to hear from you!</h4>
+            <div class="form">
+                <form>
+                    <fieldset>
+                    <legend><strong>Contact Me</strong></legend>
+                        <label for="firstname" id="fname">First name:</label>
+                        <input type="text" name="firstname" id="firstname" placeholder="Enter your first name" required><br><br>
+                        <label for="lastname" id="lname">Last name:</label>
+                        <input type="text" name="lastname" id="lastname" placeholder="Enter your last name" required><br><br>
+                        <label for="phonenumber" id="pnumber">Phone number:</label>
+                        <input type="tel" name="phonenumber" id="phonenumber" placeholder="xxx-xxx-xxxx" pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}"><br><br>
+                        <label for="address" id="addr">Address:</label>
+                        <input type="text" placeholder="Address" id="address"><br><br>
+                        <label for="city">City:</label> 
+                        <input type="text" placeholder="city" id="city"><br><br>
+                        <label for="zipcode" >Zip Code:</label> 
+                        <input type="text" placeholder="Zip Code" id="zipcode"><br><br>
+                        <label for="state">State:</label>
+                        <select id="state" name="state">
+                            <option value="pleaseselect">Please select your state</option>
+                            <option value="AB">AB</option>
+                            <option value="ON">ON</option>
+                            <option value="BC">BC</option>
+                            <option value="MB">MB</option>
+                            <option value="NT">NT</option> 
+                            <option value="NU">NU</option> 
+                            <option value="QC">QC</option>  
+                            <option value="SK">SK</option> 
+                            <option value="others">others</option> 
+                        </select> 
+                    </fieldset>
+                    <br>
+                    <fieldset id="survey-form">
+                        <legend><strong>Survey</strong></legend>
+                        <div id="survey">
+                            <p id="whatisquestion">What is your favorite drink in Junction's Bar?</p>
+                            <div class="survey1"><input class="question" name="surveyquestion" id="surveyquestion1" type="checkbox"><label for="surveyquestion1" id="marg">Margarita</label></div>
+                            <div class="survey1"><input class="question" name="surveyquestion" id="surveyquestion2"  type="checkbox"><label for="surveyquestion2" id="mart">Martini</label></div>
+                            <div class="survey1"><input class="question" name="surveyquestion" id="surveyquestion3"  type="checkbox"><label for="surveyquestion3" id="cosmo">Cosmopolitans</label></div>
+                            <div class="survey1"><input class="question" name="surveyquestion" id="surveyquestion4"  type="checkbox"><label for="surveyquestion4" id="tequil">Tequila Sunrise</label></div>
+                            <div class="survey1"><input class="question" name="surveyquestion" id="surveyquestion5"  type="checkbox"><label for="surveyquestion5" id="tom">Tom Collins</label></div>
+                            <div class="survey1"><input class="question" name="surveyquestion" id="surveyquestion6"  type="checkbox"><label for="surveyquestion6" id="oldf">Old Fashioned</label></div>
+                            <div class="survey1"><input class="question" name="surveyquestion" id="surveyquestion7"  type="checkbox"><label for="surveyquestion7" id="mosc">Moscow Mule</label></div>
+                            <div class="survey1"><input class="question" name="surveyquestion" id="surveyquestion8"  type="checkbox"><label for="surveyquestion8" id="caes">Caeser</label></div>
+                            <div class="survey1"><input class="question" name="surveyquestion" id="surveyquestion9"  type="checkbox"><label for="surveyquestion9" id="moji">Mojito</label></div>
+                        </div>
+                    </fieldset>
+                    <br>
+                    <div class="button">
+                        <button class="button1" type="submit">Submit</button>
+                        <button class="button1" type="reset">Reset</button>
+                    </div>
+                </form> 
+            </div>
+            <hr>   
+            <footer>
+                <p>&copy; Created by Junction LI</p>
+                <p>Follow me on the instagram <a href="https://www.instagram.com/l_unian/" target="_blank">@l_unian</a></p>
+            </footer>     
+    </body>
+
+</html>

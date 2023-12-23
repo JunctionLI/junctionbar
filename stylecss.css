@@ -1,0 +1,260 @@
+
+.header{
+    background:url(img/martini.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin:0;
+    z-index: 1;
+    width: 100%;
+    height: 70%;
+    top:0;
+    left:0;
+    position: absolute;
+}
+
+body{
+    background-color:lightgrey;
+}
+
+
+.headerpic{
+    width: 150px;
+}
+
+#junctionbar{
+    font-size: 150px;
+    text-align: center;
+    margin-top: -170px;
+    text-shadow: 10px 10px 5px black;
+    color:chocolate;
+}
+
+#J,#bar{
+    font-size: 180px;
+}
+
+
+#navguidelist{
+    text-align: right;
+}
+
+
+.navguidelist1,.navguidelist2{
+    color:black;
+    text-decoration: none;
+    font-weight: bold;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size:20px;
+}
+
+.navguidelist1:hover{
+    color: chocolate;
+}
+
+footer{
+    font-size:12px;
+    text-align: right;
+}
+
+/*before this is shared header, footer and body background.*/
+
+#homepagelist{
+    text-align: center;
+    margin-top: -80px;
+   
+}
+
+.homepagelist{
+    list-style-type: none;
+    display:inline-block;
+    padding:20px;
+
+}
+
+.navgl{
+    list-style-type: none;
+    display:inline-block;
+    padding:20px;
+}
+
+
+.navguidelist2{
+    background-color: chocolate;
+    padding:10px;
+    border-radius: 10px;
+    box-shadow: 10px 10px 10px;
+}
+
+.navguidelist2:hover{
+    background-color: lightgrey;
+    border-radius: 10px;
+    padding:10px;
+    font-size:25px;
+
+}
+
+#story{
+    padding-top:650px;
+}
+
+
+.title{
+    text-align: center;
+    font-size: 30px;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;  
+}
+
+.content{
+    font-size:18px;
+    width:90%;
+    margin-left:50px;
+    margin-bottom:10px;
+    line-height: 1.5;
+}
+
+#productcontent1,#productcontent2{
+    text-align: center;
+}
+
+section{
+    margin-bottom:100px;
+}
+
+.alcoholtitle{
+    text-align: center;
+    font-style: italic;
+    font-weight: bolder;
+    margin-top:-70px;
+    font-size: 20px;
+
+}
+
+#divpics{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.imgs{
+    display:inline-block;
+    
+}
+
+.alcoholimg{
+    text-align: center;   
+    background-color: chocolate;
+    padding:0px 0px 50px 0px;
+    width: 350px;
+    height:250px;
+    align-items: center;
+    margin: 30px;
+}
+
+.week{
+    font-style: oblique;
+    font-weight: bold;
+}
+
+table{
+    border-spacing: 100px 30px;
+    margin: auto;
+    font-size: 20px;
+}
+
+
+
+#instagram{
+    text-decoration: none;
+    color: chocolate;
+}
+
+
+/*below this is contact page style*/
+
+#wanna{
+    padding-top:650px;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;  
+    text-align: center;
+    font-size: 25px;
+    margin-bottom: 50px;
+}
+
+form{
+   margin:auto;
+   width:60%;
+}
+
+fieldset{
+    border:none;
+    margin:20px;
+    background: url(img/martini.jpg);
+    border-radius: 15%;
+    box-shadow: 10px 10px 10px;
+}
+
+
+legend{
+    text-align: center;
+    font-size: 20px;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;  
+    margin-bottom: 20px;
+    background-color: chocolate;
+    padding:30px 10px;
+    border-radius: 50%;
+}
+
+label,#whatisquestion{
+    font-size:18px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    margin:40px;
+    padding:10px 20px 10px 10px;
+}
+
+select{
+    margin-bottom: 20px;
+}
+
+#survey{
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+.survey1{
+    margin:20px;
+    text-align: left;
+}
+
+#down{
+    text-align: center;
+}
+
+
+#downtotop2{
+    color:black;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-style: italic;
+    text-decoration: underline;
+}
+
+.button{
+    text-align: center;
+ }
+ 
+ .button1{
+     margin:20px;
+     padding:20px;
+     width: 100px;
+     height:50px;
+     font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;  
+     border:none;
+     background-color: chocolate;
+     border-radius: 0 40% 0 40%;
+     box-shadow: 10px 10px 10px;
+    }
+ 
+ .button1:hover{
+    background-color: lightgrey;
+    font-size:15px;
+    font-weight: bolder;
+ }
